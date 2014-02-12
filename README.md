@@ -1,27 +1,51 @@
-[![Build Status](https://secure.travis-ci.org/sraka1/DataboxNodeSDK.png)](http://travis-ci.org/sraka1/DataboxNodeSDK)
+# Databox Node SDK
 
-## Read first
+[![Build Status](https://travis-ci.org/sraka1/Databox-Node-SDK.png?branch=master)](https://travis-ci.org/sraka1/Databox-Node-SDK)
 
 # THIS IS VERY MUCH A WORK IN PROGRESS!
 
-- This is unofficial, based on the [developers site](https://developers.databox.com).
-- Official SDK will probably be released in the future. You may want to wait.
-- If you use it  make sure you agree with Databox's [Terms of Service](https://databox.com/terms).
+The Node SDK for interacting with the Databox Push API.
 
+## Features
+
+* Follows node module conventions
+* Built on top of a solid and extensively tested framework - Restler (danwrong/restler)
+* Uses events instead of callbacks
+* Tested and well-documented
+
+## Requirements
+
+See package.json
 
 ## Installation
 
-```
-npm install databox
-```
+Add `databox` to your package.json and install using npm.
 
-```
-var databox = require('datbox')
-```
+## Basic usage of the `databox-node-sdk client
 
-See examples directory for quick start.
+See the `example` directory for examples. 
 
 
-## Browser support
+## Documentation
 
-This module also works in the browser with [browserify](https://github.com/substack/node-browserify).
+See the `doc` directory for more detailed documentation. 
+
+## License
+
+`databox-node-sdk` is licensed under the MIT License - see the LICENSE file for details
+
+## Credits
+
+### Contributors
+
+- The Databox team, most importantly [Jakob Murko aka. sraka1](http://github.com/sraka1) 
+
+
+
+
+
+
+
+
+
+
