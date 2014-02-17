@@ -2,8 +2,6 @@
 
 [![Build Status](https://travis-ci.org/sraka1/Databox-Node-SDK.png?branch=master)](https://travis-ci.org/sraka1/Databox-Node-SDK)
 
-# THIS IS VERY MUCH A WORK IN PROGRESS!
-
 The Node SDK for interacting with the Databox Push API.
 
 ## Features
@@ -24,7 +22,6 @@ Add `databox` to your package.json and install using npm.
 ## Basic usage of the `databox-node-sdk client
 
 See the `example` directory for examples. 
-
 
 ## Documentation
 
