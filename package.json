@@ -1,5 +1,5 @@
 {
-  "name": "DataboxNodeSDK",
+  "name": "databox",
   "version": "0.0.1",
   "description": "Unofficial Node.js SDK for Databox",
   "main": "lib/databox",

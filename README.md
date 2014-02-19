@@ -1,4 +1,7 @@
-# Databox Node SDK
+Databox Node SDK
+=======
+
+[![NPM](https://nodei.co/npm/databox.png?downloads=true&stars=true)](https://nodei.co/npm/databox/)
 
 [![Build Status](https://travis-ci.org/sraka1/Databox-Node-SDK.png?branch=master)](https://travis-ci.org/sraka1/Databox-Node-SDK)
 
