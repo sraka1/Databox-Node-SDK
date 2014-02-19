@@ -12,7 +12,7 @@ The Node SDK for interacting with the Databox Push API.
 * Follows node module conventions
 * Built on top of a solid and extensively tested framework - Restler (danwrong/restler)
 * Uses events instead of callbacks
-* Tested and well-documented
+* ~~Tested and~~ well-documented
 
 ## Requirements
 
