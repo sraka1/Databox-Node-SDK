@@ -4,7 +4,7 @@ var builder
 var client
 
 builder = databox.createBuilder()
-client  = databox.createClient("5x8m7rwomz8c0wo8", "61usps63aug48k8ow8kkkw0gckwkck0o")
+client  = databox.createClient("32lkojmk5sw08o44", "17kibd5ds7a8k48s4wc0csoc88gckgw4os8400c04kc4w0kkcw")
 
 //Simple KPI's
 builder.addKpi("mirko", 1234)
@@ -57,11 +57,11 @@ builder.addWidget(progress)
 
 //Add a table
 table = builder.createTable()
-table.setKey("testpie")
+table.setKey("testtable")
 table.setDate() //Mandatory for now
 table.addColumn("Username")
 table.addColumn("Downloads")
-table.addRow([{"Jacob", 20}, {"Marco", 40}, {"Jonny", 70}], [{"", 12}, {"", 24}, {"", 36}])
+table.addRow(["Jacob", "20"], ["", 12]) //values (array with same number of elements as there are columns), changes (array with same number of elements as there are columns)
 builder.addWidget(table)
 
 client.pushData(builder);
