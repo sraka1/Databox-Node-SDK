@@ -1,11 +1,11 @@
 {
   "name": "databox",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Unofficial Node.js SDK for Databox",
   "main": "lib/databox",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sraka1/DataboxNodeSDK.git"
+    "url": "https://github.com/sraka1/Databox-Node-SDK.git"
   },
   "keywords": [
     "databox",
